@@ -5,7 +5,7 @@ import java.util.Map;
 public class onceNum {
     public static void main(String[] args) {
 
-        String as ="this is dev branch";
+        
         String as2 ="this is fix branch";
 
         int[] s = new int[] { 2, 2, 3, 3, 1, 1, 5 };
