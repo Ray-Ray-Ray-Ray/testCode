@@ -8,6 +8,7 @@ public class earnMost {
 
    public static int earnMoney(int[] prices) {
        int mostFee = 0;
+       int i =0
        int currentFee = 0;
        for (int i = 0; i < prices.length; i++) {
            for (int j = i + 1; j < prices.length; j++) {
