@@ -7,6 +7,7 @@ public class onceNum {
 
         
         String as2 ="this is fix branch";
+        String as3 ="this is fix branch...who";
 
         int[] s = new int[] { 2, 2, 3, 3, 1, 1, 5 };
         System.out.println(judgeOnce(s));
