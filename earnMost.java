@@ -23,20 +23,5 @@ public class earnMost {
 
    }
 
-   public static int lowestPriceToEarn(int[] prices) {
-       int minPrice = Integer.MAX_VALUE;
-       int maxFee = 0;
-       int current = 0;
-       for(int i = 0; i<prices.length; i++){
-           if(prices[i] < minPrice){
-               minPrice = prices[i];
-           }else if(prices[i] > minPrice){  
-               current = prices[i] - minPrice; 
-               if(current > maxFee){
-                   maxFee = current;
-               }
-           }
-       }
-       return maxFee;
-   }
+   
 }
