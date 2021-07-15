@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class onceNum {
     public static void main(String[] args) {
-        int i =1;
+        int i =2;
         int[] s = new int[] { 2, 2, 3, 3, 1, 1, 5 };
         System.out.println(judgeOnce(s));
         System.out.println(singleNumber(s));
